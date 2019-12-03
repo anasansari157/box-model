@@ -1,0 +1,228 @@
+/* Eric Meyer's Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #272727;
+    padding: 20px 40px;
+    padding-bottom: 100px;
+}
+
+nav {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+.logo {
+    font-size: 20px;
+    color: #C73738;
+    font-weight: 600;
+}
+
+.right-aligned {
+    /* text-align: right; */
+    /* margin-right: 10px; */
+    float: right;
+}
+
+.rightMenu{
+    padding: 15px;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 100px 600px 20px 7px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+}
+
+.introspectBold {
+    font-weight: 800;
+}
+
+.headerPara {
+    margin: 20px 800px 20px 7px;
+    color: white;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.getStartedButton {
+    padding: 10px;
+    background-color: #272727;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.whiteSection {
+    background-color: white;
+    padding: 50px 40px;
+}
+
+.graySection {
+    background-color: #F1F0F0;
+}
+
+section.whiteSection h2 {
+    color: #DD3C3C;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+}
+
+section.whiteSection p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.learnMoreButton {
+    padding: 10px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #DD3C3C;
+    border: 2px solid #DD3C3C;
+}
+
+.graySection {
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.graySection h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #DD3C3C;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #DD3C3C;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.graySection p {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+footer {
+    background-color: #DD3C3C;
+    padding: 50px 40px;
+}
+
+footer h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0px 30px 0px;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nameBlock {
+    border: 1px solid rgba(255,255,255, 0.4);
+    height: 30px;
+    margin: 10px auto 40px; 
+}
+
+.messageBlock {
+    border: 1px solid rgba(255,255,255, 0.4);
+    height: 200px;
+    margin: 10px auto 20px;     
+}
+
+.sendMessageButton {
+    padding: 10px;
+    background-color: #DD3C3C;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+}
+
+.footerCopyrightLine {
+    padding: 30px 0px;
+    text-transform: lowercase;
+    font-size: 10px;
+    font-weight: lighter;
+}

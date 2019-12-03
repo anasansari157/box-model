@@ -1,0 +1,54 @@
+
+header {
+    margin: 20px;
+}
+
+.box {
+    background-color: #B22E25;
+    width: 90px;
+    height: 60px;
+    margin:  20px;
+}
+
+.box1 {
+    border: 3px solid black;
+}
+
+.box2 {
+    border: 3px solid black;
+    display: inline-block;
+}
+
+.box3 {
+    border: 3px dashed black;
+    display: inline-block;
+}
+
+.box4 {
+    border: 3px dotted black;
+    display: inline-block;
+}
+
+.box5 {
+    display: inline-block;
+}
+
+/* WHY CAN'T I GIVE THE BORDER PROPEERTY TO THE DIV COVERING THE .PARATEXT? */
+
+.textBlock {
+    border-top: 15px solid #812E80;
+    border-bottom: 15px solid #812E80;
+    width: 350px;
+    background: #812E80;
+}
+
+.paraText {
+    border-left: 15px solid green;
+    border-right: 15px solid gray;
+    border-top: 15px solid blue;
+    border-bottom: 15px solid yellow;
+    padding: 10px;
+    background: #E93F33;
+    /* outline: 10px solid #812E80; */
+    margin: 20px;
+}
